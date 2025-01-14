@@ -53,11 +53,12 @@ const config: Config = {
         xs: "420px",
       },
       fontFamily: {
-        inter: ["var(--font-inter)"],
-        "space-grotesk": ["var(--font-space-grotesk)"],
+        oswald: ["var(--font-oswald)"],
+        poppins: ["var(--font-poppins)"],
       },
     },
   },
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 };
 
